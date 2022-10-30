@@ -560,7 +560,7 @@ address {
     margin-bottom: 20px;
 }
 
-.footer-address-items li {
+.footer-address-items li:not(:last-child) {
     margin-bottom: 9px;
 }
 .footer-flex {
